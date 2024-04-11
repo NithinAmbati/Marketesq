@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useState, useContext } from "react";
 import CoursesContext from "../../Context/CoursesContext";
 import "./index.css";
-import AlertMsg from "../../AlertMsg";
 
 const Login = () => {
   const [username, changeUsername] = useState("");
