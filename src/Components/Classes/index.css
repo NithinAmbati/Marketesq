@@ -1,0 +1,72 @@
+.main-container {
+  width: 100%;
+}
+
+.classes-page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.videos-list-container {
+  width: 70%;
+}
+
+.video-card {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(200, 200, 200);
+}
+
+.video-card-text {
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 60%;
+  background-color: white;
+  padding: 10px;
+}
+
+.video-card h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-card p {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.line {
+  width: 3px solid black;
+}
+
+@media (max-width: 700px) {
+  .classes-page-container {
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .videos-list-container {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .video-card {
+    min-height: 600px;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    margin-right: 10px;
+  }
+  .video-card-text {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .videos-list-container {
+    width: 100%;
+  }
+}
