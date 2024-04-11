@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Marketesq/static/css/main.7e899852.css",
-    "main.js": "/Marketesq/static/js/main.e9ca4737.js",
+    "main.js": "/Marketesq/static/js/main.170b6b5e.js",
     "static/js/453.ed3810f9.chunk.js": "/Marketesq/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Marketesq/index.html",
     "main.7e899852.css.map": "/Marketesq/static/css/main.7e899852.css.map",
-    "main.e9ca4737.js.map": "/Marketesq/static/js/main.e9ca4737.js.map",
+    "main.170b6b5e.js.map": "/Marketesq/static/js/main.170b6b5e.js.map",
     "453.ed3810f9.chunk.js.map": "/Marketesq/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e899852.css",
-    "static/js/main.e9ca4737.js"
+    "static/js/main.170b6b5e.js"
   ]
 }
